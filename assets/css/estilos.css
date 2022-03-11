@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/Poppins-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+
+* {
+    font-family: 'poppins';
+}
+
+header .logo {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+header .lista{
+    list-style: none;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    float: right;
+}
+
+header .lista li{
+    display: inline-block;
+    margin-right: 50px;
+}
+header{
+    
+    border-bottom: 1px solid rgba(99, 98, 98, 0.329);
+}
+.seccion{
+    background-image: url("../images/slider-right-dec.jpg");
+    background-size: contain;
+    height: 600px;
+}
+section .texto{
+    display:inline-block ;
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+section .imagenSection{
+    float: right;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+section .imagenSection img{
+    height: 400px;
+    width: 450px;
+}
+section .aboutdec{
+    display: inline-block;
+    margin-left: 50px;
+}
+section .textos{
+    display: inline-block;
+    width: 300px;
+    word-wrap: break-word;
+    position: absolute;
+    margin-left: 50px;
+    margin-top:100px ;
+}
+.about ul{
+    display: inline-block;
+    bottom: 100px;
+    margin-left: 50px;
+    list-style: none;
+}
+.about ul li{
+    display: inline-block;
+    margin-right: 50px;
+    height: 100px;
+    width: 100px;
+    border-radius:  100% ;
+    border: 5px solid blue;
+    text-align: center;
+
+}
+.about{
+    position: static;
+}
+.azul{
+    color: blue;
+}
+footer{
+    background-image: url("../images/footer-bg-v3.jpg");
+    text-align: center;
+    margin-bottom: 0px;
+}
+footer .pp{
+    margin-bottom: 0px;
+}
+.about .textos .titulo{
+    display: inline-block;
+}
